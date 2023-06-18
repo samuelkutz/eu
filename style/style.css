@@ -1,0 +1,82 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: #313131;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    border-bottom: 5px solid #474747;
+    margin: auto;
+    width: fit-content;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/*container p/ as sections*/
+.container{
+    padding: 10px;
+    font-size: medium;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subtitle{
+    font-size: large;
+    border-bottom: 2px solid #474747;
+}
+
+.description{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.562);
+    margin: 0 auto;
+}
+
+/*estilização p/ o paragrafo do about me*/
+.paragrafo{
+    margin: auto;
+    font-size: medium;
+    text-align: center;
+    width: 465px;
+    justify-content: center;
+    letter-spacing: 0.7px;
+    line-height: 1.2;
+}
+
+/*estilização do menu de contato*/
+.contact_menu{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*estilizaçao dos links do menu de contato */
+.a{
+    color:rgba(231, 231, 231, 0.562);
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing:normal;
+}
+
+a:link{
+    color:rgba(231, 231, 231, 0.562);
+}
+
+a:visited{
+    color: rgba(90, 89, 89, 0.562);
+}
+
+.pfp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
