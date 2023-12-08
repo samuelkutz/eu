@@ -1,1 +1,3 @@
-Bom, inicialmente prefiri pensar em como escolher a paleta de cores que foi baseado nesse estilo mais dark mode. Já na estruturação, um formato de Card foi o que decidi, pois para uma apresentação pessoal não é necessário muito aprofundamento pessoal, é mais um overview mostrando o que faço e as coisas que amo.
+# Primeiro projeto em web-dev!
+
+Um card de apresentação simples feito em HTML/CSS
